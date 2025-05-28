@@ -1,0 +1,189 @@
+<html>
+    <head>
+        <title>Lab 5.13</title>
+		<style>
+		
+		body {
+		margin:0;
+		background-image:url('image2.png');
+		background-size: cover;
+        background-repeat: no-repeat;
+		}
+		
+		.top-bar {
+		background-color:#3b3a2f;
+		color:white;
+		font-family:Arial,sans-serif;
+		padding:0.5px 5px;
+		}
+		
+		.main-heading {
+		font-family:Georgia,serif;
+		color:#ff7f50;
+		text-align:center;
+		border-bottom:1px solid black;
+		}
+		
+		.container {
+		display:flex;
+		justify-content: space-around;;
+		margin:10px;
+		}
+		
+		iframe {
+        width: 400px;
+        height: 300px;
+        border: none;
+		margin-top: 20px;
+        }
+		
+		.contact-us {
+		text-align:center;
+		}
+		
+		.section-title {
+		font-family:Georgia,serif;
+		font-size:24px;
+		color:#3b3a2f;
+		text-align:center;
+		
+		}
+		
+		.contact-label {
+		font-family:Georgia,serif;
+		font-size:22px;
+		color:darkblue;
+		margin-bottom: 10px;
+		margin-top: 20px;
+		}
+		
+		.contact-info {
+		font-family:sans-serif;
+		font-size:16px;
+		color:#333333;
+		}
+		
+		
+		.form-text {
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #6b8e23;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+		width:240px;
+		align:center;
+		margin-left:50px
+        }
+		
+		form table {
+		width: 100%;
+		}
+
+		form td {
+		padding: 5px;
+		vertical-align: top;
+		}
+		
+		.footer {
+        background-color: beige;
+        text-align: center;
+        padding: 10px;
+		align:center;
+		margin-left:750px;
+		margin-right:750px;
+        }
+
+        .footer a {
+        font-family: Georgia, serif;
+        color: #0096FF;
+        margin: 0 10px;
+        text-decoration: none;
+        }
+		
+
+		</style>
+    </head>
+	
+    <body>
+		<div class="top-bar">
+			<h3>MyPhotography.lk</h3>
+		</div>
+		
+		<div class="main-heading">
+			<h1>Get in Touch</h1>
+		</div>
+		
+		<div class="container">
+			
+			<div class="view-us">
+				<div class="section-title">View Us</div>
+				<iframe src="https://www.justinalexander.com/sincerity-bridal/" allowfullscreen></iframe>
+			</div>
+			
+			
+			<div class="contact-us">
+				<div class="section-title">Contact Us</div>
+				
+				<div class="contact-label">Address:</div>
+				<div class="contact-info">No.274,<br> Kandy Road,<br> Piliyandala,<br> Sri Lanka.</div>
+
+				<div class="contact-label">Mobile:</div>
+				<div class="contact-info">077 440 1781<br>076 760 1782</div>
+
+				<div class="contact-label">Office:</div>
+				<div class="contact-info">041 22 44375</div>
+
+				<div class="contact-label">Email:</div>
+				<div class="contact-info">myphotography@example.com</div>
+			</div>
+			
+			<div class="tell-us">
+				<div class="section-title">Tell Us</div>
+				
+				<p class="form-text">
+                YOU ARE JUST ONE STEP AWAY FROM CONTACTING US FOR ANY INQUIRIES ABOUT MYPHOTOGRAPHY SERVICES. FEEL FREE TO FILL THE LITTLE FORM TO GET IN TOUCH WITH US AND PLAN YOUR NEXT PHOTO SHOOT.
+				</p>
+				
+				<form>
+    <table>
+        <tr>
+            <td><p class="tell-label">Full name<p></td>
+            <td><input type="text" id="name" placeholder="Type your name here..."></td>
+        </tr>
+        <tr>
+            <td><p class="tell-label">Email:<p></td>
+            <td><input type="text" id="email" placeholder="Type your email here..."></td>
+        </tr>
+        <tr>
+            <td><p class="tell-label">Contact No:<p></td>
+            <td><input type="text" id="contact" placeholder="Type your phone number here..."></td>
+        </tr>
+        <tr>
+            <td><p class="tell-label">Message:<p></td>
+            <td><textarea id="message" rows="4" cols="30" placeholder="Type your message here..."></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="reset" value="Clear">
+                <input type="submit" value="Send">
+            </td>
+        </tr>
+    </table>
+				</form>
+			</div>
+		
+		</div>
+		
+		<div class="footer">
+        <a href="#">HOME</a>
+        <a href="#">SERVICES</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT</a>
+		</div>
+		
+		
+		
+		
+    </body>
+</html>
