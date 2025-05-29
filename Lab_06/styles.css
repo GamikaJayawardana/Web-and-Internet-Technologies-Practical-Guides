@@ -66,18 +66,16 @@ footer{
     background-color: black;
     color: white;
     padding: 10px;
-    text-align: center;
     margin: 10px 10px 0px 10px;
 	display:flex;
 	justify-content:space-between;
-	height:350px;
+	height:340px;
     
 }
 
 .petcare-img{
  	border-radius:50%;
 	border: 2px solid red;
-	align:center;
 	display: block; 
 	margin-left:auto;
 	margin-right:auto;
@@ -90,12 +88,50 @@ footer{
 	justify-content: space-between;
 	width:300px;
 	padding:20px;
-	
+    align-items: center;
+}
+
+#pet-care p{
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 250px;
+    display: block; 
+	margin-left:auto;
+    margin-right:auto;
+}
+
+.footer-navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+    margin-bottom: 50px;
+}
+
+.footer-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+
+.footer-navbar li{
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .bottom-footer{
-    background-color: rgb(134, 133, 133);
+    background-color: #747272;
     color: white;
+    font-size: 14px;
+    font-weight: 600;
     text-align: center;
     margin: 0px 10px 0px 10px;
 }
