@@ -335,3 +335,72 @@ home-description a{
     text-align: center;
 
 }
+
+.contact-container {
+  width: 60%;
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  color: black;
+
+}
+
+.contact-details {
+  background-color: rgb(4, 165, 194);
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.contact-container h2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-variant: small-caps;
+}
+
+.underline {
+  width: 150px;
+  height: 2px;
+  background-color: black;
+  margin: 10px auto 30px;
+  box-shadow: white 2px 2px 10px;   
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+input {
+  background-color: white;
+}
+
+textarea {
+  background-color: #eeee6b;
+  height: 120px;
+  resize: none;
+}
+
+.contact-details button {
+  background-color: #eeee11;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #e0d822;
+}
