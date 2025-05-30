@@ -230,6 +230,8 @@ home-description a{
     text-align: center;
     border-bottom: 2px solid black;
     max-width: 220px; 
+    font-variant: small-caps;
+    padding: 10px;
 }
 
 .about-details{
@@ -269,3 +271,67 @@ home-description a{
   gap: 60px;
   margin-top: 40px;
 }   
+
+.review-content {
+   background-color: #747272;
+    margin: 10px;
+}
+
+.review-header {
+    text-align: left;
+    color: rgb(230, 209, 22);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-bottom: 2px solid white;
+    max-width: 150px;
+    padding: 10px 10px 10px 0px;
+    font-variant: small-caps;
+   
+}   
+
+.review-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.review-item{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+
+.review-item img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.review-item p{
+    font-size: 14px;
+    color: #918e8e;
+}
+
+.review-item h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.review-text{
+    font-size: 16px;
+    display: block;
+    margin: 30px auto;
+    color: #666565;
+    max-width: 120px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 500;
+    text-align: center;
+
+}
